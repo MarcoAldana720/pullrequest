@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/movile.css">
+    <script src="https://kit.fontawesome.com/228ea9976a.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="ancho">
+        <figure>
+            <img src="img/pullrequest-logo.svg" alt="Foto 1">
+        </figure>
+
+        <div class="menu" id="menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <nav class="ancho" id="opciones">
+        <a href="#">inicio</a>
+        <a href="#">empresa</a>
+        <a href="#">servicios</a>
+        <a href="#">clientes</a>
+        <a href="#">ubicacion</a>
+        <a href="#">contactanos</a>
+    </nav>
+
+    <section class="ancho">
+        <div class="container_izq">
+            <h1>Creacion de pagina web</h1>
+            <h2>Curso básico de HTML y CSS3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab doloremque unde exercitationem illum facilis delectus debitis voluptate! Nostrum, laboriosam facilis.</p><br>
+            <a href="#">ver</a>
+        </div>
+        <div class="container_der">
+            <figure>
+                <img src="img/foto_pullrequest.svg" alt="Foto 2">
+            </figure>
+        </div>
+    </section>
+
+    <footer class="ancho">
+        marco
+    </footer>
+
+
+    <!-- javascript -->
+    <script>
+        $("#menu").click(function() {
+            $("#opciones").slideToggle();
+        });
+    </script>
+</body>
+</html>

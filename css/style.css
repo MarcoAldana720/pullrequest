@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.ancho {
+    max-width: 1200px;
+    margin: auto;
+    border: 1px red solid;
+}
+
+/* estilo cabeza */
+header {
+    /* border: 1px red solid; */
+    background-color: #EEE;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header figure {
+    /* border: 1px red solid; */
+    width: 300px;
+}
+
+header figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    /* border: 1px red solid; */
+    padding: 10px;
+    display: none;
+}
+
+nav {
+    /* border: 1px red solid; */
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a {
+    border: 2px #28557A solid;
+    color: #28557A;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+section {
+    /* border: 1px red solid; */
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.container_izq {
+    /* border: 1px red solid; */
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container_izq h1 {
+    color: orange;
+}
+
+.container_izq h2 {
+    color: #28557A;
+}
+
+.container_der {
+    border: 2px #28557A solid;
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container_der figure {
+    /* border: 1px red solid; */
+    width: 100%;
+    height: 100%;
+}
+
+.container_der figure img {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #28557A;
+    color: #FFF;
+}

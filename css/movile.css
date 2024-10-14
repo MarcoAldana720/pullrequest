@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px){
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .menu {
+        border-radius: 5px;
+        display: block;
+        background-color: #28557A;
+        color: #FFF;
+    }
+
+    nav {
+        display: none;
+        flex-direction: column;
+    }
+
+    nav a {
+        border: none;
+        text-align: left;
+        width: 100%;
+    }
+
+    section {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .container_izq {
+        width: 100%;
+    }
+
+    .container_der {
+        width: 100%;
+    }
+}
